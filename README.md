@@ -38,12 +38,13 @@ learnr::available_tutorials(package = 'ualg.dia.aberto')
 #> Available tutorials:
 #> * ualg.dia.aberto
 #>   - dia_aberto_ualg_2022 : "Dias Abertos UAlg | 3-4 Maio 2022"
+#>   - dia_aberto_ualg_2023 : "Dias Abertos UAlg"
 ```
 
 To run one of the tutorials included in `{ualg.dia.aberto}` use the
 command `learnr::run_tutorial()`. For example to run the interactive
-tutorial `"dia_aberto_ualg_2022"`:
+tutorial `"dia_aberto_ualg_2023"`:
 
 ``` r
-learnr::run_tutorial('dia_aberto_ualg_2022', package = 'ualg.dia.aberto')
+learnr::run_tutorial('dia_aberto_ualg_2023', package = 'ualg.dia.aberto')
 ```
