@@ -185,10 +185,17 @@ sequências semelhantes à tua proteína de interesse.
 **Intruções:** Abre um novo separador e acede ao seguinte endereço:
 https://www.uniprot.org/blast, e segue as instruções da Figura 3.
 
-![**Figura 3:** Instruções para pesquisa de sequências de proteínas identicas na base de dados UniProt.](images/figura3-blast-12ano.png){width=100%}
+![**Figura 3:** Instruções para pesquisa de sequências de proteínas idênticas na base de dados UniProt.](images/figura3-blast-12ano.png){width=100%}
 
 <br>
 
+#### **Resultados da pesquisa BLAST**
+
+Após a pesquisa por BLAST de sequências idênticas à proteína de interesse, isto é, a proteína encontrada no sangue do assaltante do banco que pode ajudar a identificar o suspeito culpado do crime, encontramos a seguinte página de resultados:
+
+![**Figura 4:** Página de resultados do BLAST com links para páginas na base de dados UniProt contendo informações detalhadas sobre as proteínas semelhantes à nossa proteína de interesse.](images/figura4-opsin-info-12ano.png){width=100%}
+
+<br>
 
 ```{r quiz3, echo = FALSE}
 quiz(caption = "Usando as informações apresentadas no cabeçalho da página, vê se consegues responder às seguintes questões:",
@@ -216,9 +223,9 @@ quiz(caption = "Usando as informações apresentadas no cabeçalho da página, v
 
 A UniProt é uma espécie de enciclopédia sobre proteínas. Toda a informação sobre
 cada uma das proteínas cuja sequência de aminoácidos é já conhecida é guardada
-aqui. Uma entrada na UniProt tem o seguinte aspecto (Figura 4):
+aqui. Uma entrada na UniProt tem o seguinte aspecto (Figura 5):
 
-![**Figura 4:** Exemplo de uma págica UniProt com informação detalhada sobre uma proteína de interesse.](images/figura4-opsin-info-12ano.png){width=100%}
+![**Figura 5:** Exemplo de uma página UniProt com informação detalhada sobre a proteína de interesse no organismo humano.](images/figura5-opsin-info-12ano.png){width=100%}
 
 <br>
 
@@ -232,15 +239,15 @@ quiz(caption = "Explora um pouco mais as informações apresentadas na página d
   incorrect = "Humm... vamos pensar juntos: então se esta proteína está associada à visão, então em qual órgão dos sentidos estará expressa?",
   allow_retry = TRUE
   ),
-  question_text("Quantas doenças estão descritas como estando associadas a mutações nesta proteína? (Pista: Esta informação encontra-se na secção Pathology & Biotech - Involvement in disease.) (Escreve apenas um número).",
+  question_text("Quantas doenças estão descritas como estando associadas a mutações nesta proteína? (Pista: Esta informação encontra-se na secção Disease & Variants.) (Escreve apenas um número).",
     answer("2", correct = TRUE, message = "Correto! Mutações nesta proteína estão descritas como estando associadas a duas doenças."),
-  incorrect = "Confirma que leste corretamente a secção sobre Pathology & Biotech, Involvement in disease.",
+  incorrect = "Confirma que leste corretamente a secção sobre Disease & Variants.",
   allow_retry = TRUE
   ),
   question_text("Dá exemplo de uma doença causada por alterações nesta proteína. (Copia o nome da doença em inglês, tal como se encontra no website).",
     answer("Colorblindness, partial, protan series (CBP)", correct = TRUE, message = "Correto! O daltonismo parcial está associado a defeitos nesta proteína."),
     answer("Blue cone monochromacy (BCM)", correct = TRUE, message = "Correto! O daltonismo monocromático azul (raro e muito debilitante) está associado a defeitos nesta proteína."),
-  incorrect = "Confirma que leste corretamente a secção sobre Pathology & Biotech, Involvement in disease. E coloca o nome da doença de forma completa como aparece no website.",
+  incorrect = "Confirma que leste corretamente a secção sobre Disease & Variants. E coloca o nome da doença de forma completa como aparece no website.",
   allow_retry = TRUE
   )
 )
