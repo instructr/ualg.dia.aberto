@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - As células eucariotas possuem o seu material genético organizado em
 cromossomas, que por sua vez, são constitiuídos por ADN (**Á**cido
-**D**esoxiribo**N**ucleico).
+**D**esoxirribo**N**ucleico).
 
 - O ADN é constituído por sequências de quatro nucleótidos diferentes, também
 denominados ácidos nucleicos ou bases, representados pelas letras **A G T C**,
@@ -118,7 +118,7 @@ proteína no ADN. Estes codões denominam-se **codão STOP**.
 **Sabias que...** 
 
 - A sequência do **Genoma Humano** foi apenas conhecida em Abril de 2003, custou
-mil milhões de dólares, e demorou 13 anos? Hoje, quase 20 anos depois,
+mil milhões de dólares, e demorou 13 anos? Hoje, 20 anos depois,
 conseguimos sequenciar genomas humanos em apenas duas horas por cerca de 1000
 dólares.
 
@@ -138,7 +138,7 @@ somáticos (1 até 22), e 1 par de cromossomas sexuais (X e Y)?
 
 <br>
 
-#### **Descodifica a informação do ADN** que se segue ao primeiro ATG, de forma a transformá-lo na sequência de uma proteína, e responde à pergunta seguinte, usando a **Roda do Código Genético** que te será formecida na sala (Figura 2). Cada 3 nucleótidos codificam 1 aminoácido.
+#### **Descodifica a informação do ADN** que se segue ao primeiro ATG, de forma a transformá-lo na sequência de uma proteína, e responde à pergunta seguinte, usando a **Roda do Código Genético** que te será fornecida na sala (Figura 2). Cada 3 nucleótidos codificam 1 aminoácido.
 
 <br>
 
